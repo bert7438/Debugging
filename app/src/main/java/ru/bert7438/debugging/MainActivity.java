@@ -22,5 +22,14 @@ public class MainActivity extends AppCompatActivity {
         Shwarzeneager.printInfo(debugText);
         alexey.letsGO(debugText);
         Shwarzeneager.letsGO(debugText);
+
+        Wizard Dumbledor = new Wizard("Дамблодар", 20, 10000);
+        Dumbledor.printInfo(debugText);
+        Dumbledor.letsGO(debugText);
+
+        NPC npc = new NPC(1, "ожидает");
+        npc.printInfo(debugText);
+        npc.letsGO(debugText);
+
     }
 }
